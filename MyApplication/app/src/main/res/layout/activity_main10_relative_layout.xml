@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="#e2e3eb">
+
+    <TextView
+        android:id="@+id/Name"
+        android:text="Name"
+        android:gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="#e71faf15" />
+
+    <TextView
+        android:id="@+id/Address"
+        android:text="Address"
+        android:gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/Name"
+        android:background="#e71faf15" />
+
+    <TextView
+        android:id="@+id/Subject"
+        android:text="Subject"
+        android:gravity="center"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_below="@id/Address"
+        android:background="#e71faf15" />
+    <TextView
+        android:id="@+id/Message"
+        android:text="Message"
+        android:gravity="center"
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:layout_below="@id/Subject"
+        android:background="#e71faf15" />
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/Message"
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
